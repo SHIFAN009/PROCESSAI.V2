@@ -1,0 +1,11 @@
+fastapi==0.100.0
+uvicorn[standard]==0.22.0
+pydantic==2.2.0
+SQLAlchemy==2.0.20
+psycopg2-binary==2.9.6
+redis==5.0.10
+httpx==0.24.1
+openai==1.31.0
+passlib[bcrypt]==1.7.4
+PyJWT==2.8.0
+python-json-logger==2.0.4
