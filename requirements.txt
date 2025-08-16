@@ -1,11 +1,46 @@
-fastapi==0.100.0
-uvicorn[standard]==0.22.0
-pydantic==2.2.0
-SQLAlchemy==2.0.20
-psycopg2-binary==2.9.6
-redis==5.0.10
-httpx==0.24.1
-openai==1.31.0
+# Core FastAPI and ASGI
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+
+# Database
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+alembic==1.12.1
+
+# Redis
+redis[hiredis]==5.0.1
+
+# HTTP client
+httpx==0.25.2
+
+# Authentication & Security
+python-jose[cryptography]==3.3.0
 passlib[bcrypt]==1.7.4
-PyJWT==2.8.0
-python-json-logger==2.0.4
+python-multipart==0.0.6
+bleach==6.1.0
+
+# OpenAI
+openai==1.3.7
+
+# Scientific Computing (with lighter alternatives)
+numpy==1.24.4
+scikit-learn==1.3.2
+
+# Semantic Scholar API
+semanticscholar==0.7.0
+
+# Sentence Transformers (lighter model)
+sentence-transformers==2.2.2
+
+# Units handling
+pint==0.22
+
+# Logging
+pythonjsonlogger==2.0.7
+
+# Environment & Config
+python-dotenv==1.0.0
+
+# Production WSGI server alternative
+gunicorn==21.2.0
